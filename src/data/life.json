@@ -1,0 +1,184 @@
+{
+  "underwaterLife": [
+    {
+      "id": 1,
+      "name": "Akdeniz Foku",
+      "scientificName": "Monachus monachus",
+      "description": "Akdeniz foku, dünyanın en nadir deniz memelilerinden biridir. Türkiye'nin Akdeniz ve Ege kıyılarında yaşar. Balıkçılık, kirlilik ve habitat kaybı nedeniyle nesli tükenme tehlikesi altındadır.",
+      "habitat": "Kıyı mağaraları ve kayalık sahiller",
+      "diet": "Balık, kalamar ve deniz canlıları",
+      "image": "/images/life/mediterranean-seal.jpg",
+      "conservationStatus": "Kritik seviyede tehlikede"
+    },
+    {
+      "id": 2,
+      "name": "Caretta Caretta",
+      "scientificName": "Caretta caretta",
+      "description": "Caretta caretta, Türkiye'nin Akdeniz kıyılarında yumurtlayan en önemli deniz kaplumbağası türüdür. Dalyan, Fethiye ve Antalya sahillerinde yuvalama alanları bulunur.",
+      "habitat": "Sıcak denizler ve kumsallar",
+      "diet": "Denizanası, yengeç ve küçük balıklar",
+      "image": "/images/life/caretta-caretta.jpg",
+      "conservationStatus": "Tehlikede"
+    },
+    {
+      "id": 3,
+      "name": "Mercan",
+      "scientificName": "Corallium rubrum",
+      "description": "Akdeniz mercanı, Türkiye'nin güney kıyılarında bulunan değerli bir deniz canlısıdır. Takı yapımında kullanılan kırmızı mercan, deniz ekosisteminin önemli bir parçasıdır.",
+      "habitat": "Derin deniz kayalıkları",
+      "diet": "Plankton ve küçük deniz canlıları",
+      "image": "/images/life/coral.jpg",
+      "conservationStatus": "Korunması gereken tür"
+    },
+    {
+      "id": 4,
+      "name": "Orfoz",
+      "scientificName": "Epinephelus marginatus",
+      "description": "Orfoz, Akdeniz'in en büyük balık türlerinden biridir. Kayalık bölgelerde yaşar ve balıkçılık için önemli bir türdür. Aşırı avlanma nedeniyle popülasyonu azalmaktadır.",
+      "habitat": "Kayalık deniz tabanı",
+      "diet": "Küçük balıklar ve kabuklular",
+      "image": "/images/life/grouper.jpg",
+      "conservationStatus": "Tehlikede"
+    },
+    {
+      "id": 5,
+      "name": "Deniz Çayırı",
+      "scientificName": "Posidonia oceanica",
+      "description": "Deniz çayırı, Akdeniz'in en önemli deniz bitkilerinden biridir. Oksijen üretimi, karbon tutma ve deniz canlıları için habitat sağlama açısından kritik öneme sahiptir.",
+      "habitat": "Sığ deniz tabanı",
+      "diet": "Fotosentez ile beslenir",
+      "image": "/images/life/seagrass.jpg",
+      "conservationStatus": "Korunması gereken habitat"
+    },
+    {
+      "id": 6,
+      "name": "Mavi Köpekbalığı",
+      "scientificName": "Prionace glauca",
+      "description": "Mavi köpekbalığı, Türkiye'nin açık denizlerinde görülen büyük bir köpekbalığı türüdür. Hızlı yüzücü olup, okyanus ekosisteminin önemli bir parçasıdır.",
+      "habitat": "Açık denizler",
+      "diet": "Küçük balıklar ve kalamar",
+      "image": "/images/life/blue-shark.jpg",
+      "conservationStatus": "Hassas tür"
+    },
+    {
+      "id": 7,
+      "name": "Aslan Balığı",
+      "scientificName": "Pterois miles",
+      "description": "Aslan balığı, Kızıldeniz'den Akdeniz'e göç eden istilacı bir türdür. Süveyş Kanalı üzerinden Türkiye sularına ulaşmıştır. Zehirli dikenleri ve agresif beslenme alışkanlığı ile yerel ekosistemi tehdit etmektedir.",
+      "habitat": "Kayalık bölgeler ve mercan resifleri",
+      "diet": "Küçük balıklar ve kabuklular",
+      "image": "/images/life/lionfish.jpg",
+      "conservationStatus": "İstilacı tür"
+    },
+    {
+      "id": 8,
+      "name": "Balon Balığı",
+      "scientificName": "Lagocephalus sceleratus",
+      "description": "Balon balığı, Kızıldeniz'den Akdeniz'e göç eden istilacı bir türdür. Süveyş Kanalı üzerinden Türkiye sularına ulaşmıştır. Tehlike anında vücudunu şişirerek kendini korur. Zehirli eti nedeniyle tüketilmemesi gerekir.",
+      "habitat": "Kıyı suları ve açık denizler",
+      "diet": "Küçük balıklar, yengeçler ve yumuşakçalar",
+      "image": "/images/life/pufferfish.jpg",
+      "conservationStatus": "İstilacı tür"
+    },
+    {
+      "id": 9,
+      "name": "Denizatı",
+      "scientificName": "Hippocampus hippocampus",
+      "description": "Denizatı, Akdeniz'in en ilginç deniz canlılarından biridir. Erkek bireyler yavruları taşır ve monogamik yaşam sürer. Habitat kaybı ve aşırı avlanma nedeniyle tehdit altındadır.",
+      "habitat": "Deniz çayırları ve alg yatakları",
+      "diet": "Küçük kabuklular ve plankton",
+      "image": "/images/life/seahorse.jpg",
+      "conservationStatus": "Tehlikede"
+    },
+    {
+      "id": 10,
+      "name": "Mürekkep Balığı",
+      "scientificName": "Sepia officinalis",
+      "description": "Mürekkep balığı, Akdeniz'in en zeki deniz canlılarından biridir. Mürekkep salgılayarak düşmanlarından korunur ve karmaşık avlanma teknikleri kullanır.",
+      "habitat": "Kumlu ve çamurlu deniz tabanı",
+      "diet": "Küçük balıklar, yengeçler ve yumuşakçalar",
+      "image": "/images/life/cuttlefish.jpg",
+      "conservationStatus": "Sürdürülebilir tür"
+    },
+    {
+      "id": 11,
+      "name": "Deniz Yıldızı",
+      "scientificName": "Asterias rubens",
+      "description": "Deniz yıldızı, Akdeniz'in en yaygın omurgasız canlılarından biridir. Beş kollu yapısı ile tanınır ve deniz tabanında yaşar. Regenerasyon yeteneği ile bilinir.",
+      "habitat": "Deniz tabanı ve kayalık bölgeler",
+      "diet": "Midye, istiridye ve diğer yumuşakçalar",
+      "image": "/images/life/starfish.jpg",
+      "conservationStatus": "Yaygın tür"
+    },
+    {
+      "id": 12,
+      "name": "Deniz Kestanesi",
+      "scientificName": "Paracentrotus lividus",
+      "description": "Deniz kestanesi, Akdeniz'in önemli deniz canlılarından biridir. Alg yataklarını kontrol eder ve deniz ekosisteminin dengesini korur. Aşırı avlanma nedeniyle popülasyonu azalmaktadır.",
+      "habitat": "Kayalık bölgeler ve alg yatakları",
+      "diet": "Algler ve deniz yosunları",
+      "image": "/images/life/sea-urchin.jpg",
+      "conservationStatus": "Korunması gereken tür"
+    },
+    {
+      "id": 13,
+      "name": "Müren Balığı",
+      "scientificName": "Muraena helena",
+      "description": "Müren balığı, Akdeniz'in en tehlikeli balık türlerinden biridir. Uzun yılan benzeri vücudu ve güçlü çeneleri ile tanınır. Kayalık bölgelerde yaşar ve genellikle gece avlanır.",
+      "habitat": "Kayalık mağaralar ve çatlaklar",
+      "diet": "Küçük balıklar, yengeçler ve yumuşakçalar",
+      "image": "/images/life/moray-eel.jpg",
+      "conservationStatus": "Hassas tür"
+    },
+    {
+      "id": 14,
+      "name": "Ahtapot",
+      "scientificName": "Octopus vulgaris",
+      "description": "Ahtapot, Akdeniz'in en zeki deniz canlılarından biridir. Sekiz kolu ve gelişmiş beyin yapısı ile karmaşık problem çözme yeteneklerine sahiptir. Kamuflaj yeteneği ile düşmanlarından korunur.",
+      "habitat": "Kayalık bölgeler ve deniz tabanı",
+      "diet": "Yengeçler, istiridyeler ve küçük balıklar",
+      "image": "/images/life/octopus.jpg",
+      "conservationStatus": "Sürdürülebilir tür"
+    },
+    {
+      "id": 15,
+      "name": "Deniz Anası",
+      "scientificName": "Aurelia aurita",
+      "description": "Deniz anası, Akdeniz'in en yaygın planktonik canlılarından biridir. Şeffaf vücudu ve zarif hareketleri ile tanınır. Bazı türleri zehirli olabilir ve insanlarda yanık etkisi yaratabilir.",
+      "habitat": "Açık denizler ve kıyı suları",
+      "diet": "Plankton ve küçük deniz canlıları",
+      "image": "/images/life/jellyfish.jpg",
+      "conservationStatus": "Yaygın tür"
+    },
+    {
+      "id": 16,
+      "name": "Deniz Tavşanı",
+      "scientificName": "Aplysia depilans",
+      "description": "Deniz tavşanı, Akdeniz'in en ilginç yumuşakçalarından biridir. Büyük kulak benzeri uzantıları ve renkli vücudu ile tanınır. Tehlike anında mor mürekkep salgılar.",
+      "habitat": "Deniz çayırları ve alg yatakları",
+      "diet": "Algler ve deniz yosunları",
+      "image": "/images/life/sea-hare.jpg",
+      "conservationStatus": "Yaygın tür"
+    },
+    {
+      "id": 17,
+      "name": "Vatoz",
+      "scientificName": "Dasyatis pastinaca",
+      "description": "Vatoz, Akdeniz'in en yaygın kıkırdaklı balık türlerinden biridir. Yassı vücudu ve uzun kuyruğu ile tanınır. Kuyruğundaki zehirli diken ile kendini korur.",
+      "habitat": "Kumlu deniz tabanı",
+      "diet": "Küçük balıklar, yengeçler ve yumuşakçalar",
+      "image": "/images/life/stingray.jpg",
+      "conservationStatus": "Sürdürülebilir tür"
+    },
+    {
+      "id": 18,
+      "name": "Akya Balığı",
+      "scientificName": "Lichia amia",
+      "description": "Akya balığı, Akdeniz'in en hızlı balık türlerinden biridir. Uzun vücudu ve güçlü kuyruğu ile yüksek hızlarda yüzebilir. Sport balıkçılığı için popüler bir türdür.",
+      "habitat": "Açık denizler ve kıyı suları",
+      "diet": "Küçük balıklar ve kalamar",
+      "image": "/images/life/leerfish.jpg",
+      "conservationStatus": "Sürdürülebilir tür"
+    }
+  ]
+}

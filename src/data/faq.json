@@ -1,0 +1,59 @@
+{
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Duck Dalış Merkezi Hakkında Merak Edilenler",
+    "description": "Duck Dalış Merkezi hakkında en çok sorulan soruları ve cevaplarını burada bulabilirsiniz.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Etkinliklere nasıl katılabilirim?",
+        "answer": "Etkinliklere katılabilmek için bizimle iletişime geçebilirsiniz. Sosyal medya hesaplarımızdan veya e-posta adresimizden başvuru yapabilirsiniz. Dalış eğitimi almak için önceden deneyim gerekmez, başlangıç seviyesinden ileri seviyeye kadar eğitimlerimiz mevcuttur."
+      },
+      {
+        "id": 2,
+        "question": "Eğitimler nasıl ve ne zaman düzenleniyor?",
+        "answer": "Eğitimlerimiz 10 - 30 kişi sayısına sahip gruplarla düzenlenmektedir. Eğitimler teorik ve pratik olarak ikiye ayrılır. Teorik eğitimler eğitimin olacağı hafta içi online veya yüzyüze yapılır. Pratik eğitimler ise aynı haftanın sonunda Kaş, Fethiye vb. deniz kenarı lokasyonlarda yapılır."
+      },
+      {
+        "id": 3,
+        "question": "Dalış eğitimi almak için önceden deneyim gerekli mi?",
+        "answer": "Hayır, dalış eğitimlerimiz sıfırdan başlayanlar için tasarlanmıştır. Profesyonel eğitmenlerimiz eşliğinde teorik ve pratik eğitimler verilmektedir. Temel yüzme bilgisi yeterlidir, dalış deneyimi şart değildir."
+      },
+      {
+        "id": 4,
+        "question": "Dalış ekipmanları Duck Dalış Merkezi tarafından sağlanıyor mu?",
+        "answer": "Hayır, dalış eğitimleri sırasında gerekli tüm ekipmanlar tekne tarafından sağlanmaktadır. Ancak kişisel ekipmanlarınızı kullanmak isterseniz kullanabilirsiniz."
+      },
+      {
+        "id": 5,
+        "question": "Hangi dalış sertifikalarını alabilirim?",
+        "answer": "Duck Dalış Merkezi bünyesinde CMAS belgeleri verilmektedir. Temel dalış eğitiminden ileri seviye tekniklere kadar çeşitli seviyelerde belgeler alabilirsiniz."
+      },
+      {
+        "id": 6,
+        "question": "Etkinlikler ne sıklıkla düzenleniyor?",
+        "answer": "Etkinliklerimiz belirlenen takvime göre düzenlenmektedir. Güncel etkinlik takvimimizi yaklaşan etkinlikler bölümünden takip edebilirsiniz."
+      },
+      {
+        "id": 7,
+        "question": "Bir dalış etkinliği nasıl geçiyor?",
+        "answer": "Bir dalış etkinliği 2 günlük bir etkinliktir. Cuma akşamı otobüs ile Ankara'dan çıkılır ve cumartesi sabah gideceğimiz lokasyona varılır, ardından otele yerleşilir ve kahvaltıdan sonra tekneye geçilir, cumartesi günü 2 dalış yapılır. Pazar günü yine kahvaltıdan sonra tekneye geçilir ve pazar günü de 2 dalış yapılır, dalışlar bittikten sonra akşam yemeği yenir ve otelden eşyalar alınıp tekrar Ankara'ya doğru yola çıkılır, pazartesi günü sabah herkes işine veya dersine yetişebilecek şekilde Ankara'ya varılır."
+      },
+      {
+        "id": 8,
+        "question": "Duck Dalış Merkezi bünyesinde hangi su altı sporları yapılıyor?",
+        "answer": "Duck Dalış Merkezi bünyesinde tüplü dalış eğitimleri ve turları düzenlenmektedir, aynı zamanda serbest dalış, su altı hokeyi, su topu gibi su sporlarını da yaygınlaştırarak gençleri farklı branşlarla tanıştırmayı ve su altı dünyasını daha geniş bir perspektifle sevdirmeyi amaçlıyoruz."
+      },
+      {
+        "id": 9,
+        "question": "Yarışmalara katılıyor musunuz?",
+        "answer": "Evet, yarışmalara katılmayı amaçlıyoruz."
+      },
+      {
+        "id": 10,
+        "question": "Dalış dışında başka etkinlikler de düzenliyor musunuz?",
+        "answer": "Evet, dalış dışında bar buluşmaları, su altı dünyası ile ilgili seminerler ve sosyal sorumluluk etkinlikleri düzenlenmekteyiz."
+      }
+    ]
+  }
+}

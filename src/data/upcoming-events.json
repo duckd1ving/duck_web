@@ -1,0 +1,24 @@
+{
+  "upcomingEvents": [
+    {
+      "id": 1,
+      "title": "Deneme Dalışı",
+      "content": "Ankara'da dalış deneyimini yaşatmak için düzenlenen deneme dalışılarımız.",
+      "startingDate": "2026-01-01",
+      "endingDate": "2026-12-31",
+      "location": "Ankara TOBB Üniversitesi Havuzu",
+      "image": "/images/upcomingEvents/tobb.jpg",
+      "category": "Deneme Dalışı"
+    },
+    {
+      "id": 2,
+      "title": "Yaz Kampı",
+      "content": "Seviyenize göre 1* - 2* - 3* eğitimleri için düzenlenen yaz kampılarımız.",
+      "startingDate": "2026-06-01",
+      "endingDate": "2026-09-15",
+      "location": "Kaş",
+      "image": "/images/upcomingEvents/kas.jpg",
+      "category": "Eğitim"
+    }
+  ]
+} 

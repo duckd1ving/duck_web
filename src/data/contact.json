@@ -1,0 +1,27 @@
+{
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Duck Dalış Merkezi ile İletişime Geçin",
+    "description": "Duck Dalış Merkezi hakkında bilgi almak, dalış eğitimlerimize katılmak veya herhangi bir sorunuz için bizimle iletişime geçebilirsiniz.",
+    "info": {
+      "email": {
+        "title": "E-posta",
+        "value": "duckdivingcenter@gmail.com",
+        "description": "Genel bilgi ve sorularınız için"
+      },
+      "address": {
+        "title": "Adres",
+        "value": "Duck Dalış Merkezi",
+        "description": "Barbaros Mah. Güniz Sokak 30/8 Çankaya/Ankara"
+      },
+      "instagram": {
+        "title": "Instagram",
+        "value": "@duckdivingcenter",
+        "description": "Güncel etkinlikler ve fotoğraflar için"
+      }
+    },
+    "socialMedia": {
+      "instagram": "https://instagram.com/duckdivingcenter"
+    }
+  }
+}

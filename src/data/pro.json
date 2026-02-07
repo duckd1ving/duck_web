@@ -1,0 +1,31 @@
+{
+  "professionals": {
+    "title": "Profesyoneller",
+    "subtitle": "Duck Dalış Merkezi Profesyonel Üyeleri",
+    "members": [
+      {
+        "id": 1,
+        "name": "Engin Demir",
+        "position": "CMAS 2 Yıldız Dalış Eğitmeni"
+      },
+      {
+        "id": 2,
+        "name": "Melis Altın",
+        "position": "PADI & SSI Instructor",
+        "image": "/images/team/profesyoneller/melis.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Umut Çağan Dalkılıç",
+        "position": "CMAS 3 Yıldız",
+        "image": "/images/team/profesyoneller/umut.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Batuhan Yılmaz",
+        "position": "CMAS 3 Yıldız",
+        "image": "/images/team/profesyoneller/batu.jpg"
+      }
+    ]
+  }
+}
