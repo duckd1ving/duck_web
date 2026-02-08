@@ -88,8 +88,7 @@ export const metadata = {
     apple: [{ url: "/images/logo.png", sizes: "180x180", type: "image/png" }],
   },
   verification: {
-    // Google Search Console doğrulama kodu eklenebilir
-    // google: "your-google-verification-code",
+    google: "Ffk-ucP0zCuqjyH78jwKZ3F7t7KidWcdzkEr7yPRdy8",
   },
   category: "sports",
 };
