@@ -111,19 +111,50 @@ export default function PhotoCarousel() {
             </div>
           )}
 
-          {/* Navigation Arrows */}
+          {/* Desktop Navigation Arrows (hidden on mobile) */}
           <button
             onClick={prevPhoto}
-            className="absolute left-2 sm:left-4 lg:-left-16 top-1/2 transform -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 bg-black/30 sm:bg-amber-400/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white sm:text-amber-400 hover:bg-amber-400/30 transition-all duration-300 hover:scale-110 shadow-lg border border-white/20 sm:border-amber-400/20 z-10"
+            className="hidden sm:flex absolute left-4 lg:-left-16 top-1/2 transform -translate-y-1/2 w-12 h-12 lg:w-14 lg:h-14 bg-amber-400/20 backdrop-blur-sm rounded-full items-center justify-center text-amber-400 hover:bg-amber-400/30 transition-all duration-300 hover:scale-110 shadow-lg border border-amber-400/20 z-10"
           >
-            <ChevronLeftIcon className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" />
+            <ChevronLeftIcon className="w-6 h-6 lg:w-7 lg:h-7" />
           </button>
 
           <button
             onClick={nextPhoto}
-            className="absolute right-2 sm:right-4 lg:-right-16 top-1/2 transform -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 bg-black/30 sm:bg-amber-400/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white sm:text-amber-400 hover:bg-amber-400/30 transition-all duration-300 hover:scale-110 shadow-lg border border-white/20 sm:border-amber-400/20 z-10"
+            className="hidden sm:flex absolute right-4 lg:-right-16 top-1/2 transform -translate-y-1/2 w-12 h-12 lg:w-14 lg:h-14 bg-amber-400/20 backdrop-blur-sm rounded-full items-center justify-center text-amber-400 hover:bg-amber-400/30 transition-all duration-300 hover:scale-110 shadow-lg border border-amber-400/20 z-10"
           >
-            <ChevronRightIcon className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" />
+            <ChevronRightIcon className="w-6 h-6 lg:w-7 lg:h-7" />
+          </button>
+        </div>
+
+        {/* Mobile Navigation: Arrows + Indicators (visible only on mobile) */}
+        <div className="flex sm:hidden items-center justify-center gap-4 mt-4">
+          <button
+            onClick={prevPhoto}
+            className="w-9 h-9 bg-amber-400/20 rounded-full flex items-center justify-center text-amber-500 hover:bg-amber-400/30 transition-all duration-300 border border-amber-400/20"
+          >
+            <ChevronLeftIcon className="w-5 h-5" />
+          </button>
+
+          <div className="flex items-center gap-2">
+            {photos.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentPhotoIndex(index)}
+                className={`rounded-full transition-all duration-300 ${
+                  currentPhotoIndex === index
+                    ? 'w-3 h-3 bg-amber-400'
+                    : 'w-2.5 h-2.5 bg-amber-400/30 hover:bg-amber-400/50'
+                }`}
+              />
+            ))}
+          </div>
+
+          <button
+            onClick={nextPhoto}
+            className="w-9 h-9 bg-amber-400/20 rounded-full flex items-center justify-center text-amber-500 hover:bg-amber-400/30 transition-all duration-300 border border-amber-400/20"
+          >
+            <ChevronRightIcon className="w-5 h-5" />
           </button>
         </div>
       </div>
