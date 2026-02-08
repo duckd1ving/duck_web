@@ -100,11 +100,11 @@ export default function PhotoCarousel() {
                 href="https://forms.gle/SvD9CbE249NLCKWz6"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-amber-400 hover:bg-amber-500 text-white font-bold py-2 px-4 md:py-3 md:px-6 rounded-xl transition-all duration-300 hover:scale-105 shadow-lg"
+                className="inline-flex items-center justify-center bg-amber-400 hover:bg-amber-500 text-white font-bold py-1.5 px-3 sm:py-2 sm:px-4 md:py-3 md:px-6 rounded-lg sm:rounded-xl transition-all duration-300 hover:scale-105 shadow-lg"
                 onClick={(e) => e.stopPropagation()}
               >
-                <span className="text-sm md:text-base">Deneme Dalışı Kayıt Formu</span>
-                <svg className="w-4 h-4 md:w-5 md:h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <span className="text-xs sm:text-sm md:text-base">Deneme Dalışı Kayıt Formu</span>
+                <svg className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5 ml-1.5 sm:ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
               </a>
