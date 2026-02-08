@@ -80,13 +80,14 @@ export default function PhotoCarousel() {
           onTouchEnd={handleTouchEnd}
         >
           {/* Current Photo */}
-          <div className="w-full max-w-6xl mx-auto rounded-2xl overflow-hidden relative shadow-2xl aspect-[4/3] sm:aspect-[16/9] lg:aspect-[21/9]">
+          <div className="w-full max-w-6xl mx-auto rounded-2xl overflow-hidden relative shadow-2xl">
             <Image
               src={photos[currentPhotoIndex].src}
               alt="Duck Dalış Merkezi"
-              fill
-              className="object-cover select-none"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1400px"
+              width={3600}
+              height={1400}
+              className="w-full h-auto select-none"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1152px"
               priority={currentPhotoIndex === 0}
               draggable={false}
             />
