@@ -3,7 +3,7 @@ export const metadata = {
   description:
     "Dalış eğitimleri, sertifikalar ve Duck Dalış Merkezi hakkında sık sorulan sorular ve cevapları.",
   openGraph: {
-    title: "SSS | Duck Dalış Merkezi",
+    title: "Sıkça Sorulan Sorular | Duck Dalış Merkezi",
     description: "Dalış hakkında sık sorulan sorular ve cevapları.",
   },
 };

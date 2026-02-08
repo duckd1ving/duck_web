@@ -82,6 +82,7 @@ export const metadata = {
   },
   icons: {
     icon: [
+      { url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
       { url: "/images/logo.png", sizes: "32x32", type: "image/png" },
       { url: "/images/logo.png", sizes: "16x16", type: "image/png" },
     ],

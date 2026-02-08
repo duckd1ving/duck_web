@@ -74,29 +74,27 @@ export default function PhotoCarousel() {
         {/* Photo Carousel Container */}
         <div 
           ref={carouselRef}
-          className="relative h-[20rem] sm:h-[24rem] lg:h-[28rem] bg-transparent cursor-grab active:cursor-grabbing"
+          className="relative bg-transparent cursor-grab active:cursor-grabbing"
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
         >
           {/* Current Photo */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-full max-w-6xl h-full rounded-2xl overflow-hidden relative shadow-2xl">
-              <Image
-                src={photos[currentPhotoIndex].src}
-                alt="Duck Dalış Merkezi"
-                fill
-                className="object-cover select-none"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1400px"
-                priority={currentPhotoIndex === 0}
-                draggable={false}
-              />
-            </div>
+          <div className="w-full max-w-6xl mx-auto rounded-2xl overflow-hidden relative shadow-2xl aspect-[4/3] sm:aspect-[16/9] lg:aspect-[21/9]">
+            <Image
+              src={photos[currentPhotoIndex].src}
+              alt="Duck Dalış Merkezi"
+              fill
+              className="object-cover select-none"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1400px"
+              priority={currentPhotoIndex === 0}
+              draggable={false}
+            />
           </div>
 
           {/* Deneme Dalışı Form Button - Overlay on photo (only on first photo) */}
           {currentPhotoIndex === 0 && (
-            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-20">
+            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-20 max-w-6xl">
               <a
                 href="https://forms.gle/SvD9CbE249NLCKWz6"
                 target="_blank"
@@ -112,17 +110,17 @@ export default function PhotoCarousel() {
             </div>
           )}
 
-          {/* Navigation Arrows - Responsive positioning */}
+          {/* Navigation Arrows */}
           <button
             onClick={prevPhoto}
-            className="absolute -left-4 sm:-left-8 lg:-left-20 top-1/2 transform -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 bg-amber-400/20 backdrop-blur-sm rounded-full flex items-center justify-center text-amber-400 hover:bg-amber-400/30 transition-all duration-300 hover:scale-110 shadow-lg border border-amber-400/20 z-10"
+            className="absolute left-2 sm:left-4 lg:-left-16 top-1/2 transform -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 bg-black/30 sm:bg-amber-400/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white sm:text-amber-400 hover:bg-amber-400/30 transition-all duration-300 hover:scale-110 shadow-lg border border-white/20 sm:border-amber-400/20 z-10"
           >
             <ChevronLeftIcon className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" />
           </button>
 
           <button
             onClick={nextPhoto}
-            className="absolute -right-4 sm:-right-8 lg:-right-20 top-1/2 transform -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 bg-amber-400/20 backdrop-blur-sm rounded-full flex items-center justify-center text-amber-400 hover:bg-amber-400/30 transition-all duration-300 hover:scale-110 shadow-lg border border-amber-400/20 z-10"
+            className="absolute right-2 sm:right-4 lg:-right-16 top-1/2 transform -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 bg-black/30 sm:bg-amber-400/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white sm:text-amber-400 hover:bg-amber-400/30 transition-all duration-300 hover:scale-110 shadow-lg border border-white/20 sm:border-amber-400/20 z-10"
           >
             <ChevronRightIcon className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" />
           </button>
