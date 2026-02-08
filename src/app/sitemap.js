@@ -9,7 +9,7 @@ export default function sitemap() {
       priority: 1,
     },
     {
-      url: `${baseUrl}/about`,
+      url: `${baseUrl}/hakkimizda`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
@@ -21,19 +21,19 @@ export default function sitemap() {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/events`,
+      url: `${baseUrl}/etkinlikler`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/faq`,
+      url: `${baseUrl}/sss`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.6,
     },
     {
-      url: `${baseUrl}/contact`,
+      url: `${baseUrl}/iletisim`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,

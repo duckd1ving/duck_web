@@ -11,4 +11,3 @@ export const metadata = {
 export default function AboutLayout({ children }) {
   return children;
 }
-

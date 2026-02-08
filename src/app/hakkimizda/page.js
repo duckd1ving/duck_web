@@ -1,15 +1,7 @@
 'use client';
 import aboutData from '../../data/about.json';
-import ProCard from '../../components/ProCard';
-import proData from '../../data/pro.json';
 
 export default function About() {
-  const { professionals } = proData;
-  const aboutTeamMembers = [
-    professionals.members.find((m) => m.name === 'Batuhan Yılmaz'),
-    professionals.members.find((m) => m.name === 'Umut Çağan Dalkılıç'),
-  ].filter(Boolean);
-
   const formatContent = (content, paragraphClassName = 'text-gray-600 leading-relaxed mb-6') => {
     return content.split('\n\n').map((paragraph, index) => (
       <p key={index} className={paragraphClassName}>
@@ -48,26 +40,6 @@ export default function About() {
             <div className="text-lg leading-relaxed">
               {formatContent(aboutData.about.content)}
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Team Cards Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900 mb-4 tracking-wider">
-              Ekibimiz
-            </h2>
-            <div className="w-24 h-1 bg-amber-400 mx-auto"></div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
-            {aboutTeamMembers.map((member) => (
-              <div key={member.id} className="w-full max-w-sm mx-auto">
-                <ProCard member={member} />
-              </div>
-            ))}
           </div>
         </div>
       </section>

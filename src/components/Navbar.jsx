@@ -81,14 +81,14 @@ export default function Navbar() {
               </button>
               <div className="absolute left-0 mt-3 w-56 bg-white/95 backdrop-blur-md rounded-xl shadow-xl border border-gray-200/50 z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform -translate-y-2 group-hover:translate-y-0">
                 <div className="py-2">
-                  <Link href="/about" className="block px-4 py-3 text-sm text-gray-700 hover:bg-amber-50 hover:text-amber-500 transition-colors rounded-lg mx-2">Biz Kimiz</Link>
+                  <Link href="/hakkimizda" className="block px-4 py-3 text-sm text-gray-700 hover:bg-amber-50 hover:text-amber-500 transition-colors rounded-lg mx-2">Biz Kimiz</Link>
                   <Link href="/pro" className="block px-4 py-3 text-sm text-gray-700 hover:bg-amber-50 hover:text-amber-500 transition-colors rounded-lg mx-2">Profesyoneller</Link>
                 </div>
               </div>
             </div>
 
             <Link
-              href="/events"
+              href="/etkinlikler"
               className={`px-4 py-2 rounded-lg text-sm font-bold tracking-wide transition-all duration-300 hover:scale-105 uppercase flex items-center h-10 leading-none no-underline ${
                 isScrolled
                   ? 'text-gray-700 hover:text-amber-500 hover:bg-amber-50'
@@ -110,8 +110,8 @@ export default function Navbar() {
               </button>
               <div className="absolute left-0 mt-3 w-56 bg-white/95 backdrop-blur-md rounded-xl shadow-xl border border-gray-200/50 z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform -translate-y-2 group-hover:translate-y-0">
                 <div className="py-2">
-                  <Link href="/contact" className="block px-4 py-3 text-sm text-gray-700 hover:bg-amber-50 hover:text-amber-500 transition-colors rounded-lg mx-2">İletişim</Link>
-                  <Link href="/faq" className="block px-4 py-3 text-sm text-gray-700 hover:bg-amber-50 hover:text-amber-500 transition-colors rounded-lg mx-2">Sıkça Sorulan Sorular</Link>
+                  <Link href="/iletisim" className="block px-4 py-3 text-sm text-gray-700 hover:bg-amber-50 hover:text-amber-500 transition-colors rounded-lg mx-2">İletişim</Link>
+                  <Link href="/sss" className="block px-4 py-3 text-sm text-gray-700 hover:bg-amber-50 hover:text-amber-500 transition-colors rounded-lg mx-2">Sıkça Sorulan Sorular</Link>
                 </div>
               </div>
             </div>
@@ -173,7 +173,7 @@ export default function Navbar() {
                   {isAboutOpen && (
                     <div className="pl-8 space-y-1 mt-2">
                       <Link
-                        href="/about"
+                        href="/hakkimizda"
                         className="flex items-center px-4 py-3 text-gray-600 hover:bg-amber-50 hover:text-amber-500 transition-all duration-200 rounded-lg"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
@@ -194,7 +194,7 @@ export default function Navbar() {
 
                 {/* Events */}
                 <Link
-                  href="/events"
+                  href="/etkinlikler"
                   className="flex items-center px-4 py-4 text-gray-800 hover:bg-amber-50 hover:text-amber-500 transition-all duration-200 rounded-xl font-semibold text-sm border-b border-gray-100"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
@@ -221,7 +221,7 @@ export default function Navbar() {
                   {isMoreOpen && (
                     <div className="pl-8 space-y-1 mt-2">
                       <Link
-                        href="/contact"
+                        href="/iletisim"
                         className="flex items-center px-4 py-3 text-gray-600 hover:bg-amber-50 hover:text-amber-500 transition-all duration-200 rounded-lg"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
@@ -229,7 +229,7 @@ export default function Navbar() {
                         İletişim
                       </Link>
                       <Link
-                        href="/faq"
+                        href="/sss"
                         className="flex items-center px-4 py-3 text-gray-600 hover:bg-amber-50 hover:text-amber-500 transition-all duration-200 rounded-lg"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >

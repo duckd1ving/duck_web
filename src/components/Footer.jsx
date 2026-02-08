@@ -45,17 +45,17 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-blue-950/90 hover:text-blue-950 transition-colors text-xs md:text-sm">
+                <Link href="/hakkimizda" className="text-blue-950/90 hover:text-blue-950 transition-colors text-xs md:text-sm">
                   Hakkımızda
                 </Link>
               </li>
               <li>
-                <Link href="/events" className="text-blue-950/90 hover:text-blue-950 transition-colors text-xs md:text-sm">
+                <Link href="/etkinlikler" className="text-blue-950/90 hover:text-blue-950 transition-colors text-xs md:text-sm">
                   Etkinlikler
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-blue-950/90 hover:text-blue-950 transition-colors text-xs md:text-sm">
+                <Link href="/iletisim" className="text-blue-950/90 hover:text-blue-950 transition-colors text-xs md:text-sm">
                   İletişim
                 </Link>
               </li>

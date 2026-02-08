@@ -87,13 +87,13 @@ export default function FAQ() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="/contact"
+              href="/iletisim"
               className="w-full sm:w-[260px] h-[52px] flex items-center justify-center bg-amber-400 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105"
             >
               İletişime Geç
             </a>
             <a
-              href="/events"
+              href="/etkinlikler"
               className="w-full sm:w-[260px] h-[52px] flex items-center justify-center border-2 border-amber-300 text-amber-500 hover:bg-amber-400 hover:text-white hover:border-amber-400 font-semibold rounded-xl transition-all duration-300 hover:scale-105"
             >
               Etkinliklerimizi Gör
